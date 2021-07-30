@@ -4,6 +4,13 @@ function sayHi(name) {
 }
 sayHi('Seif');
 
+//another sytle 
+const sayHi_ = (name) => {
+    console.log(`Hi, ${name}`);
+}
+
+sayHi_('seif');
+
 
 //function expression 
 var sayBye = function (name) {
